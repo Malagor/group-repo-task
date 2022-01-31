@@ -1,3 +1,5 @@
-document.querySelector(".block").addEventListener("click", () => {
-  console.log("click");
+document.querySelectorAll(".block").forEach((e) => {
+  e.addEventListener("click", () => {
+    console.log("click");
+  });
 });
